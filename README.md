@@ -6,9 +6,12 @@
 [![GitHub Issues](https://img.shields.io/github/issues/harismuneer/Network-Simulation-Using-Cisco-Packet-Tracer.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/Network-Simulation-Using-Cisco-Packet-Tracer/issues)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
 
-I designed this network configuration for the network of three companies, given some constraints. This problem was presented in our  Computer Networks Lab (CL307) Final. The main role was to **subnet the IP addresses** correctly.
+I designed this **network configuration for the network of three companies**, given some constraints. This problem was presented in our  Computer Networks Lab (CL307) Final. The main role was to **subnet the IP addresses** correctly.
 
-## Network Screenshot
+Its an interesting problem demonstrating the concepts of **Classless IP Subnetting** and using **RIPv2 Protocol**. I am sharing this **working solution** so that it might be of help to others looking to learn these concepts with a practical real world example.
+
+
+## Designed Network
 ![a](../master/network-screenshot.PNG)
 
 
@@ -48,6 +51,9 @@ You, being very cautious, decide to **simulate the topology on Cisco Packet Trac
 **5-** Although you have to use GUI of the router to configure its interfaces but you must use CLI of the router to configure the **RIPv2 Protocol** for **Classless Subnet Addressing**.
 
 ## How to Run
+Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) and simple open the [main-file.pkt](../master/main/main-file.pkt). The whole network is in working condition. You can check it by sending a packet from one system to another or through using the PING command in the Cisco Packet Tracer.
+
+This solution works for version 6.2 or above of Cisco Packet Tracer.
 
 ----------
 
